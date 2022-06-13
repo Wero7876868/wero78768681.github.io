@@ -1,0 +1,64 @@
+body {
+  background-image: url("https://s11.postimg.org/wrezhxemb/programming_source_code_digital_art_jpg_486126.jpg");
+}
+
+.fontB {
+  font-family: 'Bell MT', sans-serif;
+}
+
+.captFont {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+.captEve {
+  font-size: larger;
+  font-family: 'Old Standard TT', sans-serif;
+}
+
+.lime_font {
+  color: limegreen;
+  font-family: 'Courier New', sans-serif;
+}
+
+
+/*PANEL CSS*/
+
+.panel {
+  border-radius: 3px;
+  border-color: cornflowerblue;
+}
+
+.panel-heading {
+  background-color: cornflowerblue;
+}
+
+.panel-body {
+  padding: 20px 20px 20px 20px;
+}
+
+.slider {
+  margin-top: 3em;
+}
+
+.slider .ui-slider-pip {
+  top: -12px;
+}
+
+.slider .ui-slider-label {
+  top: -18px;
+  font-size: 120%;
+  padding: 5px 0px 5px 0px;
+}
+
+.cust_hr {
+  border-width: 5px;
+  border-color: #2aabd2;
+}
+
+#place_image {
+  width: 100%;
+}
+
+#quote_auth {
+  float: right;
+}

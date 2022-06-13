@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Canadian Bear</title>
+  <link rel="stylesheet" href="./style1.css">
+  <style>
+    body {
+        background-color: black;
+    }
+      
+    .glow {
+        font-size: 60px;
+        color: rgb(128, 58, 0);
+        text-align: center;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+      
+    /* Text glowing from onw shade to other shade */
+    @-webkit-keyframes glow {
+        from {
+            text-shadow: 0 0 10px rgb(0, 225, 255),
+                         0 0 20px rgb(0, 204, 255), 
+                         0 0 30px #504dff, 
+                         0 0 40px #504dff,
+                         0 0 50px #504dff,
+                         0 0 60px #504dff, 
+                         0 0 70px #504dff;
+        }
+        to {
+            text-shadow: 0 0 20px #504dff;
+                         0 0 30px #4dff7a, 
+                         0 0 40px #4dff7a,
+                         0 0 50px #4dff7a, 
+                         0 0 60px #4dff7a,
+                         0 0 70px #4dff7a, 
+                         0 0 80px #4dff7a;
+        }
+    }
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="canvas"></div>
+
+
+<script>
+  document.oncontextmenu = function(){return false}
+  </script>
+
+
+<!-- Content will Glow -->
+<h1 class="glow">Cuidado del medio Ambiente <br> La vida en la naturaleza</h1>
+<hr size="10px" color="black" />
+
+<h3><marquee direction=right>QUE ES LA ECOLOGÌA?</marquee direction>
+  
+La ecología es la rama de la biología que se dedica al estudio de los seres vivos y la relación de éstos con el medio ambiente en el que habitan. 
+      Además, la ecología estudia la abundancia y distribución de seres vivos que existe en un área o región determinada.</p><br>
+      
+      Se toman en cuenta como factores de estudio dentro de esta disciplina los factores bióticos, que son todos los organismos vivos; y los factores abióticos, como el clima y los suelos.<br>
+      <ol>
+          <li>Estudio individual. Estudio de cada organismo con el medio que lo rodea.</li>
+          <li>Estudio de poblaciones. Estudio de la interrelación de seres vivos pertenecientes a una misma especie.</li>
+          <li>Estudio de comunidades. Estudio de la relación que se da entre diferentes poblaciones que habitan una misma zona.</li>
+          <li>Estudio de ecosistemas. Estudio de las comunidades y su interacción con el medio ambiente que las rodea.</li>
+          <li>Estudio de la biosfera. Estudio de todos los seres vivos en general.</li>
+          
+          
+          </ol>
+  </font>
+
+<p>
+
+<hr size="10px" color="black" />
+
+<h3><p><marquee direction=right>IMPORTANCIA DE LA ECOLOGÌA?</marquee direction></p>
+El mayor logro del estudio de la ecología es que permite conocer las conexiones fundamentales que se dan entre los organismos y los factores abióticos que conforman el medio ambiente.<BR>
+
+Con el tiempo, se descubrió que preservar estas conexiones es fundamental para mantener el equilibrio en los ecosistemas. Conocer estas relaciones permite cuidar el medio ambiente, 
+gestionar de manera consciente los recursos naturales y tomar medidas para anticiparse al impacto ambiental.<BR>
+
+La ecología es una rama de la biología muy completa e interdisciplinaria ya que utiliza herramientas de muchas ciencias para dar a conocer las características del medio ambiente.<BR>
+
+En las últimas décadas, la ecología ha adquirido relevancia por las notables consecuencias del impacto de las actividades humanas en el medioambiente.
+
+</h3> 
+
+
+<!-- partial -->
+  <script src='https://codepen.io/ste-vg/pen/MmqOpb.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/86/three.min.js'></script><script  src="./script1.js"></script>
+
+</body>
+</html>
